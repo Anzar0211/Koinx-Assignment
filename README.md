@@ -1,4 +1,3 @@
-
 # KoinX Backend Internship Assignment
 
 ## Description
@@ -9,6 +8,8 @@ This project is a server-side application built with **Node.js** and **MongoDB**
    - Retrieve the latest cryptocurrency stats.
    - Calculate the standard deviation of cryptocurrency prices from the last 100 records.
    - Trigger manual fetching of the latest cryptocurrency data.
+
+The application is deployed and available at: [KoinX Backend Assignment](https://koinx-assignment-obe8.onrender.com).
 
 ---
 
@@ -23,6 +24,7 @@ This project is a server-side application built with **Node.js** and **MongoDB**
 - Data is fetched from the [CoinGecko API](https://docs.coingecko.com/v3.0.1/reference/introduction).
 
 ### Task 2: API Endpoints
+
 1. **Fetch Cryptocurrency Stats**
    - **Endpoint**: `GET /api/stats`
    - **Query Params**:
@@ -67,7 +69,7 @@ This project is a server-side application built with **Node.js** and **MongoDB**
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Anzar0211/Koinx-Assignment.git
+   git clone https://github.com/your-username/koinx-backend-assignment.git
    cd koinx-backend-assignment
    ```
 2. Install dependencies:
@@ -84,10 +86,11 @@ This project is a server-side application built with **Node.js** and **MongoDB**
      ```
 4. Start the server:
    ```bash
-   npm start
+   node index.js
    ```
 
 ---
+
 
 
 
@@ -95,7 +98,7 @@ This project is a server-side application built with **Node.js** and **MongoDB**
 
 ### Base URL
 ```
-http://localhost:5000/api
+https://koinx-assignment-obe8.onrender.com/api
 ```
 
 ### Endpoints
@@ -136,16 +139,16 @@ http://localhost:5000/api
 
 ## Usage
 
-### Start the Server
+### Start the Server Locally
 ```bash
-npm start
+node index.js
 ```
 
 ### Test the APIs
 - Use tools like **Postman** or **cURL** to interact with the endpoints.
 - Example: Fetching Bitcoin stats:
   ```bash
-  curl -X GET "http://localhost:5000/api/stats?coin=bitcoin"
+  curl -X GET "https://koinx-assignment-obe8.onrender.com/api/stats?coin=bitcoin"
   ```
 
 ---
@@ -158,7 +161,7 @@ npm start
 ---
 
 
+
 ## Contact
 For any questions or suggestions, feel free to reach out to [anzarkhan790@gmail.com].
 
----
